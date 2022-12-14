@@ -1,0 +1,93 @@
+:root{--brand-color:#4D5AE5;
+--primary-color:#434455;
+--secondary-color:#2E2F42;
+--light-backgrnd-color: #F4F4FD;
+--pure-white-color:#ffffff;
+--btn-hover-color:#404BBF;
+--light-color:#E7E9FC;}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:var(--primary-color);
+  background-color:var(--pure-white-color);}
+a {text-decoration: none;}
+.studio {
+  width: 71px;
+  height: 24px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color:var(--secondary-color);}
+.logo {color:var(--brand-color);}
+.hero {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color:var(--pure-white-color);
+  background:var(--secondary-color);}
+.link {
+  font-weight: 600;
+  font-size: 16px;;
+  line-height: 1.5;
+  color:var(--secondary-color);}
+.link:hover,
+.link:focus{color:var(--brand-color);}
+.hero-btn {width: 170px;
+  height: 51px;  
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.19;
+  color:var(--pure-white-color);
+  background: var(--brand-color);
+  border-radius: 4px;}
+.hero-btn:hover,
+.hero-btn:focus{background-color:var(--btn-hover-color);}
+
+.contacts {color:inherit}
+.contacts:hover,
+.contacts:focus {color:var(--brand-color);}
+.filter-button {color: var(--brand-color);
+  background-color: var(--light-backgrnd-color);
+  cursor: pointer;
+  border: 1px solid var(--light-color);
+  width: 116px;
+  height: 48px;
+  border-radius: 4px;}
+.filter-button:hover,
+.filter-button:focus{color:var(--pure-white-color) ;
+    background-color: var(--brand-color);}
+.text-h{font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2}
+  .text-prime-h{color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;}
+    footer{color:var(--light-color);
+      background-color:var(--secondary-color) ;}
+   .studio-footer{  width: 71px;
+    height: 24px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#F4F4FD ;}
+  .text{ font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;}
